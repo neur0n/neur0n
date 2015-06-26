@@ -1,0 +1,22 @@
+*,*::after, *::before {
+	margin: 0;
+	padding: 0;
+}
+body, html{
+	height: 100%;
+	font: 13px 'Open Sans', sans-serif;
+}
+header{
+	background: #333;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	height: auto;
+	min-height: 100%;
+}
+header h1{
+	position: absolute;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
